@@ -565,9 +565,13 @@ void displayFunction()
             }
         }
     }
-    else
+    else if(verify)
     {
         showWord(-150, 0, "- - Press N to Start The Game - -");
+    }
+    else
+    {
+        showWord(-150, 0, "- - welocme to Start The Game - -");
     }
 	if(closeGame)glutExit();
 

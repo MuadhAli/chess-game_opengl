@@ -1,0 +1,10 @@
+ g++ SquareBox.cpp -o chess_game -lGL -lGLU -lglut
+
+ g++ main.cpp Model.cpp Chess/*.cpp  -lGL -lGLU -lglut
+
+
+
+ ./chess_game
+
+
+ 
