@@ -567,7 +567,25 @@ void displayFunction()
     }
     else 
     {
-        showWord(-150, 0, "- - Press N to Start The Game - -");
+        showWord(-100, 100, "- - Press N to Start The Game - -");
+        showWord(-380, -200, "Designed by");
+        showWord(-360, -220, "Afrah Abdul Aziz");
+        showWord(-360, -240, "Bhagyashree K");
+
+
+        showWord(110, -30, "KEY          |           ACTION");
+        showWord(110, -55, "N            |          Start new game");
+        showWord(110, -70, "W            |          Move Cursor forward 1");
+        showWord(110, -85, "A            |         Move cursor left 1 step");
+        showWord(110, -100, "S           |         Move cursor backword 1 step");
+        showWord(110, -115, "D           |         Move cursor right 1 step ");
+        showWord(110, -130, "Space       |         Select piece, Move piece,Cancel Move");
+        showWord(110, -145, "O           |         Approve start a new game");
+        showWord(110, -160, "X           |          Close game after checkmate,Cancel start new game");
+        showWord(110, -175, "Q           |          Promote to Queen ");
+        showWord(110, -190, "R           |          Promote to Rook");
+        showWord(110, -205, "B           |          Promote to Bishop");
+        showWord(110, -220, "K           |          Promote to Knight");
     }
 	if(closeGame)glutExit();
 
