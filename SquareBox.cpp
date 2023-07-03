@@ -42,6 +42,11 @@ void display()
 
     glEnd();  // End drawing
 
+    // Box 1 contents
+    glColor3f(1.0, 1.0, 1.0);  // Set color to white
+    drawText(-0.85, 0.2, "Box 1");  // Draw box 1 label
+    drawText(-0.85, 0.0, "Click to run ./a.out");  // Draw instructions
+
     // Box 2
     glBegin(GL_QUADS);  // Begin drawing a quadrilateral
 
@@ -57,9 +62,10 @@ void display()
 
     glEnd();  // End drawing
 
+    // Box 2 contents
     glColor3f(1.0, 1.0, 1.0);  // Set color to white
-    drawText(-0.85, 0.0, "Click to run ./a.out");  // Draw the text for box 1
-    drawText(0.65, 0.0, "Click to close");  // Draw the text for box 2
+    drawText(0.75, 0.2, "Box 2");  // Draw box 2 label
+    drawText(0.75, 0.0, "Click to close");  // Draw instructions
 
     glFlush();  // Force execution of OpenGL commands
 
