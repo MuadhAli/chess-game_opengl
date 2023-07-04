@@ -12,8 +12,8 @@ using namespace std;
 //Chess Game
 #include "Chess/Game.h"
 //Window size and position
-#define WINDOW_WIDTH 800
-#define WINDOW_HEIGHT 600
+#define WINDOW_WIDTH 1000
+#define WINDOW_HEIGHT 900
 #define WINDOW_POS_X 50
 #define WINDOW_POS_Y 50
 

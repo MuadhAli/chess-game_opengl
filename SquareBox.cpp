@@ -63,7 +63,7 @@ void display()
     drawText(-0.53, 0.70, "welcome to the chess game created with opengl designed and developed ");  // Draw the text for box 1
     drawText(-0.50, 0.63, "Afrah Abdul Aziz");  // Draw the text for box 1
     drawText(-0.50, 0.57, "Bhagyashree K");  // Draw the text for box 1
-
+    drawText(-0.20, 0.20, " CHESS RULES");   
     drawText(-0.50, 0.0, "1. Setup: Chess is played on a square board with 64 squares.");  // Draw the text for box 1
     drawText(-0.50, -0.10, "2. Piece Movement: Each piece moves in a specific way.");  // Draw the text for box 1
     drawText(-0.50, -0.20, "3. Objective: The objective is to checkmate the opponent's king.");  // Draw the text for box 1
