@@ -42,11 +42,6 @@ void display()
 
     glEnd();  // End drawing
 
-    // Box 1 contents
-    glColor3f(1.0, 1.0, 1.0);  // Set color to white
-    drawText(-0.85, 0.2, "Box 1");  // Draw box 1 label
-    drawText(-0.85, 0.0, "Click to run ./a.out");  // Draw instructions
-
     // Box 2
     glBegin(GL_QUADS);  // Begin drawing a quadrilateral
 
@@ -62,10 +57,25 @@ void display()
 
     glEnd();  // End drawing
 
-    // Box 2 contents
     glColor3f(1.0, 1.0, 1.0);  // Set color to white
-    drawText(0.75, 0.2, "Box 2");  // Draw box 2 label
-    drawText(0.75, 0.0, "Click to close");  // Draw instructions
+    drawText(-0.89, 0.0, "Click to run ");  // Draw the text for box 1
+
+    drawText(-0.53, 0.70, "welcome to the chess game created with opengl designed and developed ");  // Draw the text for box 1
+    drawText(-0.50, 0.63, "Afrah Abdul Aziz");  // Draw the text for box 1
+    drawText(-0.50, 0.57, "Bhagyashree K");  // Draw the text for box 1
+
+    drawText(-0.50, 0.0, "1. Setup: Chess is played on a square board with 64 squares.");  // Draw the text for box 1
+    drawText(-0.50, -0.10, "2. Piece Movement: Each piece moves in a specific way.");  // Draw the text for box 1
+    drawText(-0.50, -0.20, "3. Objective: The objective is to checkmate the opponent's king.");  // Draw the text for box 1
+    drawText(-0.50, -0.30, "4. Special Moves: Castling, en passant, and promotion.");  // Draw the text for box 1
+    drawText(-0.50, -0.40, "5. Check and Checkmate: Check and checkmate conditions.");  // Draw the text for box 1
+    drawText(-0.50, -0.50, "6. Draw: Stalemate, threefold repetition, and fifty-move rule.");  // Draw the text for box 1
+
+
+    drawText(-0.50, -0.80, "Keys to play the game will be displyed in the next page");  // Draw the text for box 1
+
+
+    drawText(0.70, 0.0, "Click to close");  // Draw the text for box 2
 
     glFlush();  // Force execution of OpenGL commands
 
@@ -107,7 +117,7 @@ int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(400, 400);
+    glutInitWindowSize(900, 700);
     glutCreateWindow("Square Boxes");
 
     glutDisplayFunc(display);

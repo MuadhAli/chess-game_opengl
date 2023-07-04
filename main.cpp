@@ -568,9 +568,6 @@ void displayFunction()
     else 
     {
         showWord(-100, 100, "- - Press N to Start The Game - -");
-        showWord(-380, -200, "Designed by");
-        showWord(-360, -220, "Afrah Abdul Aziz");
-        showWord(-360, -240, "Bhagyashree K");
 
 
         showWord(110, -30, "KEY          |           ACTION");
