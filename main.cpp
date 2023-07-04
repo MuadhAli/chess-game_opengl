@@ -566,24 +566,27 @@ void displayFunction()
         }
     }
     else 
-    {
-        showWord(-100, 100, "- - Press N to Start The Game - -");
+  {
 
 
-        showWord(110, -30, "KEY          |           ACTION");
-        showWord(110, -55, "N            |          Start new game");
-        showWord(110, -70, "W            |          Move Cursor forward 1");
-        showWord(110, -85, "A            |         Move cursor left 1 step");
-        showWord(110, -100, "S           |         Move cursor backword 1 step");
-        showWord(110, -115, "D           |         Move cursor right 1 step ");
-        showWord(110, -130, "Space       |         Select piece, Move piece,Cancel Move");
-        showWord(110, -145, "O           |         Approve start a new game");
-        showWord(110, -160, "X           |          Close game after checkmate,Cancel start new game");
-        showWord(110, -175, "Q           |          Promote to Queen ");
-        showWord(110, -190, "R           |          Promote to Rook");
-        showWord(110, -205, "B           |          Promote to Bishop");
-        showWord(110, -220, "K           |          Promote to Knight");
-    }
+        showWord(-50, 100,"welcome to PixelChess ");
+
+        showWord(-80, -30,"KEY                  ACTION");
+        showWord(-80, -55,"N                      Start new game");
+        showWord(-80, -75,"W                     Move Cursor forward 1");
+        showWord(-80, -95,"A                     Move cursor left 1 step");
+        showWord(-80, -115,"S                    Move cursor backword 1 step");
+        showWord(-80, -135,"D                    Move cursor right 1 step ");
+        showWord(-80, -150,"Space             Select piece, Move piece,Cancel Move");
+        showWord(-80, -175,"O                    Approve start a new game");
+        showWord(-80, -195,"X                     Close game after checkmate,Cancel start new game");
+        showWord(-80, -215,"Q                     Promote to Queen ");
+        showWord(-80, -235,"R                     Promote to Rook");
+        showWord(-80, -255,"B                     Promote to Bishop");
+        showWord(-80, -275,"K                     Promote to Knight");
+  }
+
+
 	if(closeGame)glutExit();
 
     glutSwapBuffers();
@@ -718,7 +721,7 @@ void keyFunction(unsigned char key, int x, int y)
 
 void initialize()
 {
-    glClearColor(0.2f, 0.6f, 0.5f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);  // Black background
     glClearDepth(1.0f);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_SMOOTH);
