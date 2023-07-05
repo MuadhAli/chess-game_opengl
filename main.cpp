@@ -569,21 +569,21 @@ void displayFunction()
   {
 
 
-        showWord(-50, 100,"welcome to PixelChess ");
+        showWord(-150, 250,"welcome to PixelChess ");
 
-        showWord(-80, -30,"KEY                  ACTION");
-        showWord(-80, -55,"N                      Start new game");
-        showWord(-80, -75,"W                     Move Cursor forward 1");
-        showWord(-80, -95,"A                     Move cursor left 1 step");
-        showWord(-80, -115,"S                    Move cursor backword 1 step");
-        showWord(-80, -135,"D                    Move cursor right 1 step ");
-        showWord(-80, -150,"Space             Select piece, Move piece,Cancel Move");
-        showWord(-80, -175,"O                    Approve start a new game");
-        showWord(-80, -195,"X                     Close game after checkmate,Cancel start new game");
-        showWord(-80, -215,"Q                     Promote to Queen ");
-        showWord(-80, -235,"R                     Promote to Rook");
-        showWord(-80, -255,"B                     Promote to Bishop");
-        showWord(-80, -275,"K                     Promote to Knight");
+        showWord(-180, 150,"KEY                  ACTION");
+        showWord(-180, 100,"N                      Start new game");
+        showWord(-180, 70,"W                     Move Cursor forward 1");
+        showWord(-180, 40,"A                     Move cursor left 1 step");
+        showWord(-180, 10,"S                     Move cursor backword 1 step");
+        showWord(-180, -20,"D                     Move cursor right 1 step ");
+        showWord(-180, -50,"Space               Select piece, Move piece,Cancel Move");
+        showWord(-180, -80,"O                     Approve start a new game");
+        showWord(-180, -110,"X                      Close game after checkmate,Cancel start new game");
+        showWord(-180, -140,"Q                     Promote to Queen ");
+        showWord(-180, -170,"R                     Promote to Rook");
+        showWord(-180, -200,"B                     Promote to Bishop");
+        showWord(-180, -230,"K                     Promote to Knight");
   }
 
 
